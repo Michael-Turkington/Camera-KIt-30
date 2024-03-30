@@ -20,7 +20,7 @@ import { bootstrapCameraKit, createMediaStreamSource, Transform2D } from "@snap/
     await session.setSource(source);
     await source.setRenderSize(680, 480);
 
-    const lens = await cameraKit.lensRepository.loadLens("50507980875", "663f5bb4-e694-4260-862f-8979394d866a");
+    const lens = await cameraKit.lensRepository.loadLens("95bc0458-ac78-4979-9a45-1d9d80a09614", "663f5bb4-e694-4260-862f-8979394d866a");
     await session.applyLens(lens);
 
     await session.play();
